@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
             reports_data = values[0];
             console.log(reports_data);
         });
-        drawStreamgraph();
-        drawBarChart();
-        drawLineChart();
+        drawStreamgraph()
+        drawBarChart()
+        drawLineChart()
 });
 
 function drawStreamgraph() {
